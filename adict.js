@@ -296,7 +296,7 @@ $(document).ready(function () {
   var initialCheckout = true;
   var lang = $("meta[name=lang]").length ? $("meta[name=lang]").attr("content") : $("html").attr("lang");
   lang ? "" : (lang = "ru");
-  var countryCode;
+  let countryCode = document.getElementById('ip');
 
   function getCounty(countryCode) {
     for (var i = 0; i < allCountries.length; i++) {
@@ -305,7 +305,7 @@ $(document).ready(function () {
       }
     }
   }
-  let countryCode = document.getElementById('ip');
+  
    $(".iti__flag_add").addClass("iti__" + countryCode.toLowerCase());
     inetlStart();
 
