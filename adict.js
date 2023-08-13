@@ -305,18 +305,9 @@ $(document).ready(function () {
       }
     }
   }
-  $.get("https://ipinfo.io?token=a409273f3f6a36", function () {}, "jsonp").always(function (resp) {
-    countryCode = resp && resp.country ? resp.country : "";
-    getCounty(countryCode.toLowerCase());
-   if(document.querySelector('#ip') != 'undefined' && document.querySelector('#ip') != null){
-       let arr = document.querySelectorAll('#ip');
-        arr.forEach((item) => {
-          item.value = resp.ip;;
-        });
-    }
-    $(".iti__flag_add").addClass("iti__" + resp.country.toLowerCase());
+  let countryCode = document.getElementById('ip');
+   $(".iti__flag_add").addClass("iti__" + countryCode.toLowerCase());
     inetlStart();
-  });
 
   function inetlStart() {
     var inputs = document.querySelectorAll("input[name=phone]");
