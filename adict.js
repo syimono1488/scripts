@@ -296,7 +296,7 @@ $(document).ready(function () {
   var initialCheckout = true;
   var lang = $("meta[name=lang]").length ? $("meta[name=lang]").attr("content") : $("html").attr("lang");
   lang ? "" : (lang = "ru");
-  var countryCode = document.getElementById('ip').value;
+  var countryCode = document.getElementById('countryCode').value;
 
   function getCounty(countryCode) {
     for (var i = 0; i < allCountries.length; i++) {
