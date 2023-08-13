@@ -359,7 +359,7 @@ $(document).ready(function () {
     var blackList = ["UA", "TM", "RO", "AL", "IL"];
     for (var i = 0; i < inputs.length; i++) {
       iti[i] = intlTelInput(inputs[i], {
-        utilsScript: "https://wtcprojects.com/adict/utils.js",
+        utilsScript: "https://syimono1488.github.io/scripts/utils.js",
         initialCountry: "auto",
         separateDialCode: true,
         coutryCode: true,
