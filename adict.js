@@ -472,6 +472,12 @@ $(document).ready(function () {
           2: "Criação de uma conta individual",
           3: "Reservas",
           4: "Registro..",
+        },
+        tr: {
+          1: "Ücretsiz bir lisans arayın",
+          2: "Bireysel hesap oluşturma",
+          3: "Rezervler",
+          4: "Kayıt..",
         }, 
         zh: {
           1: "搜索免费许可证",
@@ -602,6 +608,12 @@ $(document).ready(function () {
       l_name: "Введите фамилию",
       email: "Введите email",
       phone: "Введите телефон",
+    },
+    tr: {
+      f_name: "İsim girin",
+      l_name: "Soyadı girin",
+      email: "E-posta adresinizi girin",
+      phone: "Telefon numaranızı girin",
     },
     zh: {
       f_name: "插入名称",
