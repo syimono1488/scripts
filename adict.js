@@ -455,6 +455,12 @@ $(document).ready(function () {
           3: "Prenotazione",
           4: "Registrazione",
         },
+        ro: {
+          1: "Căutarea unei licențe gratuite",
+          2: "Crearea unui cont individual",
+          3: "Rezervare",
+          4: "Înregistrare...",
+        },
         ru: {
           1: "Поиск свободной лицензии",
           2: "Создание индивидуального аккаунта",
