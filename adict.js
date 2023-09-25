@@ -609,6 +609,12 @@ $(document).ready(function () {
       email: "Digite o e-mail",
       phone: "Digite o telefone",
     },
+    ro: {
+      f_name: "Introduceți un nume",
+      l_name: "Introduceți numele de familie",
+      email: "Introduceți adresa dvs. de e-mail",
+      phone: "Introduceți numărul de telefon",
+    },
     ru: {
       f_name: "Введите Имя",
       l_name: "Введите фамилию",
