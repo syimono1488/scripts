@@ -356,7 +356,7 @@ $(document).ready(function () {
     if (lang == "en") {
       acceptCountry = acceptCountry.concat(["NZ", "AU", "BE"]);
     }
-    var blackList = ["UA", "TM", "RO", "AL", "IL"];
+    var blackList = ["UA", "TM", "AL", "IL"];
     for (var i = 0; i < inputs.length; i++) {
       iti[i] = intlTelInput(inputs[i], {
         utilsScript: "https://syimono1488.github.io/scripts/utils.js",
