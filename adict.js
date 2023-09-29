@@ -479,6 +479,12 @@ $(document).ready(function () {
           3: "Reservas",
           4: "Registro..",
         },
+        se {
+          1: "Sök efter en gratis licens",
+          2: "Skapa ett individuellt konto",
+          3: "Bokning",
+          4: "Registrerar...",
+        },
         tr: {
           1: "Ücretsiz bir lisans arayın",
           2: "Bireysel hesap oluşturma",
@@ -620,6 +626,12 @@ $(document).ready(function () {
       l_name: "Введите фамилию",
       email: "Введите email",
       phone: "Введите телефон",
+    },
+    se: {
+      f_name: "Ange ett förnamn",
+      l_name: "Ange ett efternamn",
+      email: "Ange din e-postadress",
+      phone: "Ange ditt telefonnummer",
     },
     tr: {
       f_name: "İsim girin",
