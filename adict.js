@@ -479,7 +479,7 @@ $(document).ready(function () {
           3: "Reservas",
           4: "Registro..",
         },
-        se {
+        se: {
           1: "Sök efter en gratis licens",
           2: "Skapa ett individuellt konto",
           3: "Bokning",
