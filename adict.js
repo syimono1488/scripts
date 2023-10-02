@@ -455,6 +455,12 @@ $(document).ready(function () {
           3: "Prenotazione",
           4: "Registrazione",
         },
+        nl: {
+          1: "Op zoek naar een gratis licentie",
+          2: "Een individuele account aanmaken",
+          3: "Reservering",
+          4: "Registreren...",
+        },
         ro: {
           1: "Căutarea unei licențe gratuite",
           2: "Crearea unui cont individual",
@@ -602,6 +608,12 @@ $(document).ready(function () {
       l_name: "Inserire cognome",
       email: "Inserire email",
       phone: "Inserire numero di telefono",
+    },
+    nl: {
+      f_name: "Voer een voornaam in",
+      l_name: "Voer een achternaam in",
+      email: "Voer uw e-mailadres in",
+      phone: "Voer uw telefoonnummer in",
     },
     pl: {
       f_name: "Podaj imię",
