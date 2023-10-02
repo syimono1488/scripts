@@ -425,6 +425,12 @@ $(document).ready(function () {
           3: "Reservierung",
           4: "Anmeldung",
         },
+        dk: {
+          1: "Søgning efter en gratis licens",
+          2: "Oprettelse af en individuel konto",
+          3: "Reservation",
+          4: "Registrerer...",
+        },
         en: {
           1: "Search for a free license",
           2: "Create an individual account",
@@ -578,6 +584,12 @@ $(document).ready(function () {
       l_name: "Geben Sie Ihren Nachnamen ein",
       email: "Geben Sie Ihre E-Mail ein",
       phone: "Geben Sie Ihre Telefonnummer ein",
+    },
+    dk: {
+      f_name: "Indtast et fornavn",
+      l_name: "Indtast et efternavn",
+      email: "Indtast din e-mailadresse",
+      phone: "Indtast dit telefonnummer",
     },
     en: {
       f_name: "Insert name",
