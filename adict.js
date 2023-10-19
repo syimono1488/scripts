@@ -503,6 +503,12 @@ $(document).ready(function () {
           3: "Rezervler",
           4: "Kayıt..",
         }, 
+        fi: {
+          1: "Ilmainen lisenssin haku",
+          2: "Yksittäisen tilin luominen",
+          3: "Varaus",
+          4: "Rekisteröidään...",
+        },
         zh: {
           1: "搜索免费许可证",
           2: "创建一个个人账户",
@@ -662,6 +668,12 @@ $(document).ready(function () {
       l_name: "Soyadı girin",
       email: "E-posta adresinizi girin",
       phone: "Telefon numaranızı girin",
+    },
+    fi: {
+      f_name: "Syötä etunimi",
+      l_name: "Syötä sukunimi",
+      email: "Syötä sähköpostiosoitteesi",
+      phone: "Syötä puhelinnumerosi",
     },
     zh: {
       f_name: "插入名称",
