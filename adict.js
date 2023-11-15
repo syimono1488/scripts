@@ -449,6 +449,12 @@ $(document).ready(function () {
           3: "ブッキング",
           4: "登録...",
         },
+        lv: {
+          1: "Meklēšana bezmaksas licence",
+          2: "Individuālā konta izveide",
+          3: "Rezervācija",
+          4: "Reģistrējas...",
+        },
         in: {
           1: "निःशुल्क लाइसेंस के लिए खोजें",
           2: "एक व्यक्तिगत खाता बनाएँ",
@@ -614,6 +620,12 @@ $(document).ready(function () {
       l_name: "苗字を入力",
       email: "Eメールアドレスを入力します。",
       phone: "電話番号を入力",
+    },
+    lv: {
+      f_name: "Ievadiet vārdu",
+      l_name: "Ievadiet uzvārdu",
+      email: "Ievadiet savu e-pasta adresi",
+      phone: "Ievadiet savu tālruņa numuru",
     },
     in: {
       f_name: "अपना नाम दर्ज करें",
