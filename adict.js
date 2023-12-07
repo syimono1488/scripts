@@ -443,6 +443,12 @@ $(document).ready(function () {
           3: "Reservación",
           4: "Inscripción",
         },
+        hu: {
+          1: "Keresés ingyenes licenchez",
+          2: "Egyéni fiók létrehozása",
+          3: "Foglalás",
+          4: "Regisztrálás...",
+          },
         jp: {
           1: "フリーライセンスを検索する",
           2: "個人アカウントの作成",
@@ -615,6 +621,12 @@ $(document).ready(function () {
       email: "Ingrese su e-mail",
       phone: "Ingrese su número de teléfono",
     },
+    hu: {
+      f_name: "Adja meg a keresztnevét",
+      l_name: "Adja meg a vezetéknevét",
+      email: "Adja meg az e-mail címét",
+      phone: "Adja meg a telefonszámát",
+     },
     jp: {
       f_name: "名前を入力",
       l_name: "苗字を入力",
