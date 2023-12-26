@@ -357,7 +357,7 @@ $(document).ready(function () {
       acceptCountry = acceptCountry.concat(["NZ", "AU", "BE"]);
     }
     
-    var rueu = ["TESLA-XQ2", "TESLA-X", "TESLA-XQ2Y", "WHATSAPPBOTV2", "WHATSAPPQ"];
+    var rueu = ["TESLA-XQ2", "TESLA-X", "TESLA-XQ2Y", "WHATSAPPBOTV2", "WHATSAPPQ", "TESLA-XYO"];
     var funnel = document.querySelector('input[name="landing"]').value;
     if (rueu.includes(funnel)) {
       var blackList = ["UA", "TM", "AL", "IL", "RU"];
