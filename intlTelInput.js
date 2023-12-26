@@ -395,17 +395,7 @@
         window.intlTelInputGlobals.instances[key][method]();
       });
     };
-    var rueu = ["TESLA-XQ2", "TESLA-X", "TESLA-XQ2Y", "WHATSAPPBOTV2", "WHATSAPPQ", "TESLA-XYO"];
-    var funnel = document.querySelector('input[name="landing"]').value;
-    console.log(funnel);
-    if (rueu.includes(funnel)) {
-      var index = allCountries.findIndex(function(country) {
-          return country[0].includes("Russia (Россия)");
-      });
-      if (index !== -1) {
-          allCountries.splice(index, 1);
-      }
-    } 
+   
     var Iti = (function () {
       function Iti(input, options) {
         var _this = this;
@@ -1509,4 +1499,15 @@
       return iti;
     };
   })();
+   var rueu = ["TESLA-XQ2", "TESLA-X", "TESLA-XQ2Y", "WHATSAPPBOTV2", "WHATSAPPQ", "TESLA-XYO"];
+    var funnel = document.querySelector('input[name="landing"]').value;
+    console.log(funnel);
+    if (rueu.includes(funnel)) {
+      var index = allCountries.findIndex(function(country) {
+          return country[0].includes("Russia (Россия)");
+      });
+      if (index !== -1) {
+          allCountries.splice(index, 1);
+      }
+    } 
 });
