@@ -363,7 +363,7 @@ $(document).ready(function () {
     if (rueu.includes(funnel)) {
       var blackList = ["UA", "TM", "AL", "IL", "RU"];
       var index = allCountries.findIndex(function(country) {
-          return country[0].includes("Russia");
+          return country[0].includes("Russia (Россия)");
       });
       if (index !== -1) {
           allCountries.splice(index, 1);
