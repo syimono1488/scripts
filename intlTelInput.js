@@ -1,3 +1,4 @@
+ document.addEventListener('DOMContentLoaded', function() {
 (function (factory) {
   var intlTelInput = factory(window, document);
   if (typeof module === "object" && module.exports) module.exports = intlTelInput;
@@ -300,7 +301,7 @@
     ];
 
     
-    document.addEventListener('DOMContentLoaded', function() {
+   
     var rueu = ["TESLA-XQ2", "TESLA-X", "TESLA-XQ2Y", "WHATSAPPBOTV2", "WHATSAPPQ", "TESLA-XYO"];
     var funnel = document.querySelector('input[name="landing"]').value;
     console.log(funnel);
@@ -314,7 +315,7 @@
             allCountries.splice(index, 1);
         }
     }
-    });
+    
 
     for (var i = 0; i < allCountries.length; i++) {
       var c = allCountries[i];
@@ -1514,4 +1515,5 @@
       return iti;
     };
   })();
+});
 });
