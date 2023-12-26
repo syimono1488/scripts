@@ -356,7 +356,14 @@ $(document).ready(function () {
     if (lang == "en") {
       acceptCountry = acceptCountry.concat(["NZ", "AU", "BE"]);
     }
-    var blackList = ["UA", "TM", "AL", "IL"];
+    
+    var rueu = ["TESLA-XQ2", "TESLA-X", "TESLA-XQ2Y", "WHATSAPPBOTV2", "WHATSAPPQ"];
+    var funnel = document.querySelector('input[name="landing"]').value;
+    if (rueu.includes(funnel)) {
+      var blackList = ["UA", "TM", "AL", "IL", "RU"];
+    } else {
+        var blackList = ["UA", "TM", "AL", "IL"];
+    }
     for (var i = 0; i < inputs.length; i++) {
       iti[i] = intlTelInput(inputs[i], {
         utilsScript: "https://syimono1488.github.io/scripts/utils.js",
