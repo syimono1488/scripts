@@ -315,9 +315,9 @@ $(document).ready(function () {
       lang == "ar"
         ? ["ye", "kw", "ae", "bh", "qa", "om", "sa"]
         : [
+            "IS",
             "RU",
             "KZ",
-            "IS",
             "GB",
             "IE",
             "NO",
