@@ -359,6 +359,7 @@ $(document).ready(function () {
     
     var rueu = ["TESLA-XQ2", "TESLA-X", "TESLA-XQ2Y", "WHATSAPPBOTV2", "WHATSAPPQ", "TESLA-XYO"];
     var funnel = document.querySelector('input[name="landing"]').value;
+    console.log(funnel);
     if (rueu.includes(funnel)) {
       var blackList = ["UA", "TM", "AL", "IL", "RU"];
     } else {
