@@ -270,8 +270,8 @@
       ["Tajikistan", "tj", "992"],
         /*["Tanzania", "tz", "255"],*/
       ["Thailand (ไทย)", "th", "66"],
-      ["Timor-Leste", "tl", "670"],
-      /*["Togo", "tg", "228"],
+      /*["Timor-Leste", "tl", "670"],
+        ["Togo", "tg", "228"],
         ["Tokelau", "tk", "690"],
         ["Tonga", "to", "676"],
         ["Trinidad and Tobago", "tt", "1", 22, ["868"]],
