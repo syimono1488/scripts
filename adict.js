@@ -364,14 +364,8 @@ $(document).ready(function () {
       var index = allCountries.findIndex(function(country) {
           return country[0].includes("Russia (Россия)");
       });
-       var index = allCountries.findIndex(function(country) {
-          return country[0].includes("Kazakhstan (Казахстан)");
-      });
       if (index !== -1) {
           allCountries.splice(index, 1);
-      }
-      if (index2 !== -1) {
-          allCountries.splice(index2, 1);
       }
     } else {
         var blackList = ["UA", "TM", "AL", "IL"];
