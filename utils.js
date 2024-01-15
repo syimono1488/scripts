@@ -7980,10 +7980,10 @@
     };
 document.addEventListener('DOMContentLoaded', () => {
     const input = document.querySelector('input[name="countryCode"]');
-    
-    if (input && input.value.toUpperCase() !== 'RU') {
-        wa = wa.filter(item => !item.hasOwnProperty('RU'));
-    }
+    console.log(input);
+    // if (input && input.value.toUpperCase() !== 'RU') {
+    //     wa = wa.filter(item => !item.hasOwnProperty('RU'));
+    // }
 });
   function M() {
     this.a = {};
