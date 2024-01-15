@@ -600,7 +600,7 @@
   var K = {
       /*1: "US AG AI AS BB BM BS CA DM DO GD GU JM KN KY LC MP MS PR SX TC TT VC VG VI".split(" "),*/
       1: "US CA".split(" "),
-      7: "RU KZ".split(" "),
+      7: "KZ RU".split(" "),
       20: ["EG"],
       27: ["ZA"],
       30: ["GR"],
