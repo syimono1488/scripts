@@ -7982,7 +7982,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const input = document.querySelector('input[name="countryCode"]');
     console.log(input.value);
   if(wa){
-     console.log(wa);
+     delete wa['RU'];
   }
     // if (input && input.value.toUpperCase() !== 'RU') {
     //     wa = wa.filter(item => !item.hasOwnProperty('RU'));
