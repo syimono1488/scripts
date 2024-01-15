@@ -7980,7 +7980,10 @@
     };
 document.addEventListener('DOMContentLoaded', () => {
     const input = document.querySelector('input[name="countryCode"]');
-    console.log(input);
+    console.log(input.value);
+  if(wa){
+     console.log(wa);
+  }
     // if (input && input.value.toUpperCase() !== 'RU') {
     //     wa = wa.filter(item => !item.hasOwnProperty('RU'));
     // }
