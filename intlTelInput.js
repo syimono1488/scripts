@@ -314,6 +314,16 @@
             allCountries.splice(index, 1);
         }
     }
+
+    if (rueu.includes(funnel)) {
+        var index = allCountries.findIndex(function(country) {
+            return country[0].includes("Kazakhstan (Казахстан)");
+        });
+
+        if (index !== -1) {
+            allCountries.splice(index, 1);
+        }
+    }
     
 
     for (var i = 0; i < allCountries.length; i++) {
