@@ -7993,6 +7993,12 @@ if(input.value !== 'KG'){
 if(input.value !== 'KZ'){
      delete wa['KZ'];
   }
+  if(input.value !== 'AZ'){
+     delete wa['AZ'];
+  }
+  if(input.value !== 'TJ'){
+     delete wa['TJ'];
+  }
     // if (input && input.value.toUpperCase() !== 'RU') {
     //     wa = wa.filter(item => !item.hasOwnProperty('RU'));
     // }
