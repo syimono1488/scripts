@@ -7987,6 +7987,12 @@ document.addEventListener('DOMContentLoaded', () => {
   if(input.value !== 'UZ'){
      delete wa['UZ'];
   }
+if(input.value !== 'KG'){
+     delete wa['KG'];
+  }
+if(input.value !== 'KZ'){
+     delete wa['KZ'];
+  }
     // if (input && input.value.toUpperCase() !== 'RU') {
     //     wa = wa.filter(item => !item.hasOwnProperty('RU'));
     // }
