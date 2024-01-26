@@ -207,9 +207,9 @@
         ["Nauru", "nr", "674"],*/
       ["Nepal (नेपाल)", "np", "977"],
       ["Netherlands (Nederland)", "nl", "31"],
-      /* ["New Caledonia (Nouvelle-Calédonie)", "nc", "687"],
+      /* ["New Caledonia (Nouvelle-Calédonie)", "nc", "687"],*/
         ["New Zealand", "nz", "64"],
-        ["Nicaragua", "ni", "505"],
+        /*["Nicaragua", "ni", "505"],
         ["Niger (Nijar)", "ne", "227"],
         ["Nigeria", "ng", "234"],
         ["Niue", "nu", "683"],
