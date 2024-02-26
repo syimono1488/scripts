@@ -7,8 +7,8 @@ $(document).ready(function () {
         ["Andorra", "ad", "376"],
          /*["Angola", "ao", "244"],
         ["Anguilla", "ai", "1", 6, ["264"]],
-        ["Antigua and Barbuda", "ag", "1", 7, ["268"]],
-        ["Argentina", "ar", "54"],*/
+        ["Antigua and Barbuda", "ag", "1", 7, ["268"]],*/
+        ["Argentina", "ar", "54"],
         ["Armenia (Հայաստան)", "am", "374"],
        /* ["Aruba", "aw", "297"],*/
     ["Australia", "au", "61", 0],
@@ -26,9 +26,9 @@ $(document).ready(function () {
     ["Bhutan (འབྲུག)", "bt", "975"],
     ["Bolivia", "bo", "591"],
     ["Bosnia and Herzegovina (Босна и Херцеговина)", "ba", "387"],
-    /* ["Botswana", "bw", "267"],
+     ["Botswana", "bw", "267"],
         ["Brazil (Brasil)", "br", "55"],
-        ["British Indian Ocean Territory", "io", "246"],
+        /*["British Indian Ocean Territory", "io", "246"],
         ["British Virgin Islands", "vg", "1", 11, ["284"]],*/
     ["Brunei", "bn", "673"],
     ["Bulgaria (България)", "bg", "359"],
@@ -93,10 +93,10 @@ $(document).ready(function () {
         ["Chad (Tchad)", "td", "235"],*/
     ["Chile", "cl", "56"],
     ["China (中国)", "cn", "86"],
-    /* ["Christmas Island", "cx", "61", 2],
+     ["Christmas Island", "cx", "61", 2],
         ["Cocos (Keeling) Islands", "cc", "61", 1],
         ["Colombia", "co", "57"],
-        ["Comoros (‫جزر القمر‬‎)", "km", "269"],
+        /*["Comoros (‫جزر القمر‬‎)", "km", "269"],
         ["Congo (DRC) (Jamhuri ya Kidemokrasia ya Kongo)", "cd", "243"],
         ["Congo (Republic) (Congo-Brazzaville)", "cg", "242"],
         ["Cook Islands", "ck", "682"],
@@ -108,11 +108,11 @@ $(document).ready(function () {
     ["Cyprus (Κύπρος)", "cy", "357"],
     ["Czech Republic (Česká republika)", "cz", "420"],
     ["Denmark (Danmark)", "dk", "45"],
-    /* ["Djibouti", "dj", "253"],
+    ["Djibouti", "dj", "253"],
         ["Dominica", "dm", "1", 13, ["767"]],
         ["Dominican Republic (República Dominicana)", "do", "1", 2, ["809", "829", "849"]],
         ["Ecuador", "ec", "593"],
-        ["Egypt (‫مصر‬‎)", "eg", "20"],
+        /* ["Egypt (‫مصر‬‎)", "eg", "20"],
         ["El Salvador", "sv", "503"],
         ["Equatorial Guinea (Guinea Ecuatorial)", "gq", "240"],
         ["Eritrea", "er", "291"],*/
@@ -279,11 +279,11 @@ $(document).ready(function () {
     ["United Arab Emirates (‫الإمارات العربية المتحدة‬‎)", "ae", "971"],
     ["United Kingdom", "gb", "44", 0],
     ["United States", "us", "1", 0],
-    /*["Uruguay", "uy", "598"], */
+   ["Uruguay", "uy", "598"], 
     ["Uzbekistan (Oʻzbekiston)", "uz", "998"],
     /* ["Vanuatu", "vu", "678"],
-        ["Vatican City (Città del Vaticano)", "va", "39", 1, ["06698"]],
-        ["Venezuela", "ve", "58"],*/
+        ["Vatican City (Città del Vaticano)", "va", "39", 1, ["06698"]],*/
+        ["Venezuela", "ve", "58"],
     ["Vietnam (Việt Nam)", "vn", "84"],
     /* ["Wallis and Futuna (Wallis-et-Futuna)", "wf", "681"],
         ["Western Sahara (‫الصحراء الغربية‬‎)", "eh", "212", 1, ["5288", "5289"]],*/
