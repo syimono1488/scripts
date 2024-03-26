@@ -534,6 +534,12 @@ $(document).ready(function () {
           3: "Varaus",
           4: "Rekisteröidään...",
         },
+        fr: {
+          1: "Keresés ingyenes licenchez",
+          2: "Egyéni fiók létrehozása",
+          3: "Foglalás",
+          4: "Regisztrálás...",
+        },
         zh: {
           1: "搜索免费许可证",
           2: "创建一个个人账户",
@@ -711,6 +717,12 @@ $(document).ready(function () {
       l_name: "Syötä sukunimi",
       email: "Syötä sähköpostiosoitteesi",
       phone: "Syötä puhelinnumerosi",
+    },
+    fr: {
+      f_name: "Adja meg a keresztnevét",
+      l_name: "Adja meg a vezetéknevét",
+      email: "Adja meg az e-mail címét",
+      phone: "Adja meg a telefonszámát",
     },
     zh: {
       f_name: "插入名称",
