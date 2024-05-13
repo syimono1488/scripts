@@ -516,6 +516,12 @@ $(document).ready(function () {
           3: "Reservas",
           4: "Registro..",
         },
+        si: {
+          1: "Iskanje brezplačne licence",          
+          2: "Ustvari posamezni račun",          
+          3: "Rezervacija",          
+          4: "Registracija...",          
+       }, 
         se: {
           1: "Sök efter en gratis licens",
           2: "Skapa ett individuellt konto",
@@ -699,6 +705,12 @@ $(document).ready(function () {
       l_name: "Введите фамилию",
       email: "Введите email",
       phone: "Введите телефон",
+    },
+    si: {
+      f_name: "Vnesite svoje ime",      
+      l_name: "Vnesite svoj priimek",      
+      email: "Vnesite svoj e-poštni naslov",      
+      phone: "Vnesite svojo telefonsko številko",
     },
     se: {
       f_name: "Ange ett förnamn",
