@@ -528,6 +528,12 @@ $(document).ready(function () {
           3: "Bokning",
           4: "Registrerar...",
         },
+        sk: {
+          1: "Bezplatné vyhľadávanie licencií",          
+          2: "Vytvorte si personalizovaný účet",          
+          3: "Rezervácia",          
+          4: "Registrácia...",
+        },
         tr: {
           1: "Ücretsiz bir lisans arayın",
           2: "Bireysel hesap oluşturma",
@@ -717,6 +723,12 @@ $(document).ready(function () {
       l_name: "Ange ett efternamn",
       email: "Ange din e-postadress",
       phone: "Ange ditt telefonnummer",
+    },
+    sk: {
+      f_name: "Zadajte svoje meno",      
+      l_name: "Zadajte svoje priezvisko",      
+      email: "Zadajte svoju e-mailovú adresu",      
+      phone: "Zadajte svoje telefónne číslo",
     },
     tr: {
       f_name: "İsim girin",
