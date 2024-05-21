@@ -552,6 +552,12 @@ $(document).ready(function () {
           3: "Foglalás",
           4: "Regisztrálás...",
         },
+        gr: {
+          1: "Αναζήτηση δωρεάν άδειας",          
+          2: "Δημιουργήστε έναν εξατομικευμένο λογαριασμό",          
+          3: "Κράτηση",          
+          4: "Εγγραφείτε...",
+        },
         zh: {
           1: "搜索免费许可证",
           2: "创建一个个人账户",
@@ -747,6 +753,12 @@ $(document).ready(function () {
       l_name: "Adja meg a vezetéknevét",
       email: "Adja meg az e-mail címét",
       phone: "Adja meg a telefonszámát",
+    },
+    gr: {
+      f_name: "Εισάγετε το όνομά σας",      
+      l_name: "Εισάγετε το επώνυμό σας",      
+      email: "Εισάγετε τη διεύθυνση email σας",      
+      phone: "Εισάγετε τον αριθμό τηλεφώνου σας",
     },
     zh: {
       f_name: "插入名称",
