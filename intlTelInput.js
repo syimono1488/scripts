@@ -180,9 +180,9 @@
       ["Liechtenstein", "li", "423"],
       ["Lithuania (Lietuva)", "lt", "370"],
       ["Luxembourg", "lu", "352"],
-      /* ["Macau (澳門)", "mo", "853"],
+      /* ["Macau (澳門)", "mo", "853"],*/
         ["Macedonia (FYROM) (Македонија)", "mk", "389"],
-        ["Madagascar (Madagasikara)", "mg", "261"],
+        /*["Madagascar (Madagasikara)", "mg", "261"],
         ["Malawi", "mw", "265"],*/
       ["Malaysia", "my", "60"],
       ["Maldives", "mv", "960"],
