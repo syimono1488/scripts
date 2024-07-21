@@ -462,6 +462,12 @@ $(document).ready(function () {
           3: "Foglalás",
           4: "Regisztrálás...",
           },
+        hr: {
+          1: "Besplatno pretraživanje licenci",
+          2: "Izradite personalizirani račun",
+          3: "Rezervacija",
+          4: "Prijavite se...",
+          },
         jp: {
           1: "フリーライセンスを検索する",
           2: "個人アカウントの作成",
@@ -664,6 +670,12 @@ $(document).ready(function () {
       email: "Adja meg az e-mail címét",
       phone: "Adja meg a telefonszámát",
      },
+    hr: {
+      f_name: "Unesite svoje ime",
+      l_name: "Unesite svoje prezime",
+      email: "Unesite svoju e-mail adresu",
+      phone: "Unesite svoj broj telefona",
+      },
     jp: {
       f_name: "名前を入力",
       l_name: "苗字を入力",
