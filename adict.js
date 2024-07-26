@@ -468,6 +468,12 @@ $(document).ready(function () {
           3: "Rezervacija",
           4: "Prijavite se...",
           },
+        kr: {
+          1: "무료 라이센스 검색",
+          2: "맞춤형 계정 만들기",
+          3: "예약",
+          4: "가입 중...",
+          },
         jp: {
           1: "フリーライセンスを検索する",
           2: "個人アカウントの作成",
@@ -675,6 +681,12 @@ $(document).ready(function () {
       l_name: "Unesite svoje prezime",
       email: "Unesite svoju e-mail adresu",
       phone: "Unesite svoj broj telefona",
+      },
+    kr: {
+      f_name: "이름을 입력하세요",
+      l_name: "성을 입력하세요",
+      email: "이메일 주소를 입력하세요",
+      phone: "전화번호를 입력하세요",
       },
     jp: {
       f_name: "名前を入力",
