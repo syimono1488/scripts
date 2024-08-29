@@ -412,6 +412,59 @@ $(document).ready(function () {
   });
   var sendingForm = false;
 
+
+  
+const translations = {
+    ar: "يرجى تقديم بيانات دقيقة فقط. يجب أن يكون رقم الهاتف صحيحًا لإكمال التسجيل بنجاح. سيتم إرسال رمز لك.",
+    cz: "Uveďte pouze přesné údaje. Telefonní číslo musí být správné, aby bylo možné úspěšně dokončit registraci. Bude vám zaslán kód.",
+    de: "Geben Sie bitte nur genaue Daten an. Die Telefonnummer muss korrekt sein, um die Registrierung erfolgreich abzuschließen. Ihnen wird ein Code zugesandt.",
+    dk: "Angiv kun nøjagtige data. Telefonnummeret skal være korrekt for at fuldføre registreringen. Der vil blive sendt en kode til dig.",
+    en: "Please provide accurate information only. The phone number must be correct to successfully complete the registration. A code will be sent to you.",
+    es: "Por favor, proporcione solo información precisa. El número de teléfono debe ser correcto para completar el registro con éxito. Se le enviará un código.",
+    hu: "Kérjük, csak pontos adatokat adjon meg. A telefonszámnak helyesnek kell lennie a sikeres regisztrációhoz. Kódot fog kapni.",
+    hr: "Molimo pružite samo točne podatke. Broj telefona mora biti točan za uspješno dovršavanje registracije. Bit će vam poslan kod.",
+    kr: "정확한 정보만 제공하십시오. 전화번호가 올바르면 등록이 성공적으로 완료됩니다. 코드가 전송됩니다.",
+    ja: "正確な情報のみを提供してください。登録を正常に完了するには、電話番号が正しい必要があります。コードが送信されます。",
+    lv: "Lūdzu, norādiet tikai precīzus datus. Lai veiksmīgi pabeigtu reģistrāciju, tālruņa numuram jābūt pareizam. Jums tiks nosūtīts kods.",
+    in: "Harap hanya memberikan informasi yang akurat. Nomor telepon harus benar agar pendaftaran berhasil. Kode akan dikirimkan kepada Anda.",
+    it: "Si prega di fornire solo informazioni accurate. Il numero di telefono deve essere corretto per completare con successo la registrazione. Ti verrà inviato un codice.",
+    nl: "Geef alleen nauwkeurige informatie op. Het telefoonnummer moet correct zijn om de registratie succesvol te voltooien. Er wordt een code naar u verzonden.",
+    ro: "Vă rugăm să furnizați doar informații precise. Numărul de telefon trebuie să fie corect pentru a finaliza cu succes înregistrarea. Vi se va trimite un cod.",
+    ru: "Укажите только точные данные. Номер телефона должен быть корректным для успешного завершения регистрации. Вам будет отправлен код.",
+    pl: "Podaj tylko dokładne dane. Numer telefonu musi być poprawny, aby pomyślnie zakończyć rejestrację. Otrzymasz kod.",
+    pt: "Forneça apenas informações precisas. O número de telefone deve estar correto para concluir o registro com sucesso. Um código será enviado para você.",
+    si: "Prosimo, navedite le natančne podatke. Telefonska številka mora biti pravilna za uspešno dokončanje registracije. Poslan vam bo koda.",
+    se: "Ange endast korrekt information. Telefonnummeret måste vara korrekt för att slutföra registreringen. En kod kommer att skickas till dig.",
+    sk: "Uveďte prosím iba presné údaje. Telefónne číslo musí byť správne, aby ste mohli úspešne dokončiť registráciu. Bude vám zaslaný kód.",
+    tr: "Lütfen yalnızca doğru bilgileri sağlayın. Kayıt işlemini başarıyla tamamlamak için telefon numarası doğru olmalıdır. Size bir kod gönderilecektir.",
+    fi: "Anna vain tarkat tiedot. Puhelinnumeron on oltava oikein rekisteröinnin onnistumiseksi. Saat koodin.",
+    fr: "Veuillez fournir uniquement des informations précises. Le numéro de téléphone doit être correct pour compléter l'inscription avec succès. Un code vous sera envoyé.",
+    gr: "Παρακαλώ παρέχετε μόνο ακριβείς πληροφορίες. Ο αριθμός τηλεφώνου πρέπει να είναι σωστός για να ολοκληρωθεί η εγγραφή με επιτυχία. Θα σας αποσταλεί ένας κωδικός.",
+    zh: "请仅提供准确的信息。电话号码必须正确才能成功完成注册。系统将向您发送验证码。"
+};
+
+
+var message = translations[lang] || translations['en'];
+
+// Ваш код для добавления блока с текстом
+document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(form) {
+    form.querySelectorAll('button[type="submit"]').forEach(function(button) {
+        var infoDiv = document.createElement('div');
+        
+        infoDiv.textContent = message;
+
+        infoDiv.style.color = 'red';
+        infoDiv.style.border = '2px solid red';
+        infoDiv.style.borderRadius = '15px';
+        infoDiv.style.textAlign = 'center';
+        infoDiv.style.maxWidth = '500px';
+        infoDiv.style.width = '100%';
+        infoDiv.style.marginTop = '10px';
+
+        button.insertAdjacentElement('afterend', infoDiv);
+    });
+});
+
   function submitForm(t) {
     t.parents("form").append('<input name="site" type="hidden" value="' + location.href + '"/>');
     if (t.parents("form").find("input[name=phone]").length) {
