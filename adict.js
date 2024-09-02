@@ -298,6 +298,14 @@ $(document).ready(function () {
   lang ? "" : (lang = "ru");
   var countryCode = document.getElementById('countryCode').value;
 
+  let metaTag = document.querySelector('meta[name="google"][content="notranslate"]');
+  if (!metaTag) {
+      metaTag = document.createElement('meta');
+      metaTag.name = 'google';
+      metaTag.content = 'notranslate';
+      document.head.appendChild(metaTag);
+  }
+
   function getCounty(countryCode) {
     for (var i = 0; i < allCountries.length; i++) {
       if (allCountries[i][1] == countryCode) {
