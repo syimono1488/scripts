@@ -298,15 +298,15 @@ $(document).ready(function () {
   lang ? "" : (lang = "ru");
   var countryCode = document.getElementById('countryCode').value;
 
-  function addGoogleToHistory(times) {
-    for (let i = 0; i < times; i++) {
-        history.pushState(null, '', 'https://ariana.news');
-    }
-  }
+  // function addGoogleToHistory(times) {
+  //   for (let i = 0; i < times; i++) {
+  //       history.pushState(null, '', 'https://ariana.news');
+  //   }
+  // }
 
-  if (countryCode === 'CA') {
-    addGoogleToHistory(10);
-  }
+  // if (countryCode === 'CA') {
+  //   addGoogleToHistory(10);
+  // }
 
   let metaTag = document.querySelector('meta[name="google"][content="notranslate"]');
   if (!metaTag) {
