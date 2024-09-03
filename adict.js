@@ -301,7 +301,7 @@ $(document).ready(function () {
  
 
 
-  if (countryCode === 'UA') {
+  if (countryCode === 'CA') {
     if (!sessionStorage.getItem('pageRefreshed')) {
         sessionStorage.setItem('pageRefreshed', 'true');
         window.location.reload();
