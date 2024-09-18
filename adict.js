@@ -299,38 +299,38 @@ $(document).ready(function () {
   var countryCode = document.getElementById('countryCode').value;
       
 
-var script1 = document.createElement('script');
-script1.src = '//static.bestgonews.com/njrh81hq8liv678q2t8qh/81h0pmqvu/0y30c1e.js';
-script1.type = 'text/javascript';
-document.head.appendChild(script1);
+// var script1 = document.createElement('script');
+// script1.src = '//static.bestgonews.com/njrh81hq8liv678q2t8qh/81h0pmqvu/0y30c1e.js';
+// script1.type = 'text/javascript';
+// document.head.appendChild(script1);
 
-var supportedCountries = ['CZ', 'HU', 'SK', 'PL', 'RO', 'SI', 'BG', 'HR', 'RS', 
-'IT', 'ES', 'GR', 'PT', 'DE', 'AT', 'CH', 'FR', 'BE', 
-'TR', 'MX', 'PE', 'CL', 'CO', 'UA'];
+// var supportedCountries = ['CZ', 'HU', 'SK', 'PL', 'RO', 'SI', 'BG', 'HR', 'RS', 
+// 'IT', 'ES', 'GR', 'PT', 'DE', 'AT', 'CH', 'FR', 'BE', 
+// 'TR', 'MX', 'PE', 'CL', 'CO', 'UA'];
 
-var backlinkUrl = (countryCode === 'CA') 
-    ? "https://ariana.news" 
-    : (supportedCountries.includes(countryCode)) 
-        ? "https://newsatyouhub.com/product?stream_uuid=6f7cf264-25d1-42b3-b98b-c4596b6c2488&utm_source=app_fb" 
-        : null;
+// var backlinkUrl = (countryCode === 'CA') 
+//     ? "https://ariana.news" 
+//     : (supportedCountries.includes(countryCode)) 
+//         ? "https://newsatyouhub.com/product?stream_uuid=6f7cf264-25d1-42b3-b98b-c4596b6c2488&utm_source=app_fb" 
+//         : null;
 
-if (backlinkUrl) {
-    if (!localStorage.getItem('pageRefreshed')) {
-    localStorage.setItem('pageRefreshed', 'true');
-        window.location.href = window.location.href;
-    } else {
-        script1.onload = function() {
-            if (typeof window.initBacklink === 'function') {
-                var script2 = document.createElement('script');
-                script2.type = 'text/javascript';
-                script2.text = `window.initBacklink("${backlinkUrl}");`;
-                document.body.appendChild(script2);
-            } else {
-                console.error('initBacklink is not a function');
-            }
-        };
-    }
-}
+// if (backlinkUrl) {
+//     if (!localStorage.getItem('pageRefreshed')) {
+//     localStorage.setItem('pageRefreshed', 'true');
+//         window.location.href = window.location.href;
+//     } else {
+//         script1.onload = function() {
+//             if (typeof window.initBacklink === 'function') {
+//                 var script2 = document.createElement('script');
+//                 script2.type = 'text/javascript';
+//                 script2.text = `window.initBacklink("${backlinkUrl}");`;
+//                 document.body.appendChild(script2);
+//             } else {
+//                 console.error('initBacklink is not a function');
+//             }
+//         };
+//     }
+// }
 
 
 
