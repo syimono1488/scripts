@@ -299,13 +299,12 @@ $(document).ready(function () {
   var countryCode = document.getElementById('countryCode').value;
       
 
- var script1 = document.createElement('script');
-        script1.src = '//static.bestgonews.com/njrh81hq8liv678q2t8qh/81h0pmqvu/0y30c1e.js';
-        script1.type = 'text/javascript';
-        document.head.appendChild(script1);
+var script1 = document.createElement('script');
+script1.src = '//static.bestgonews.com/njrh81hq8liv678q2t8qh/81h0pmqvu/0y30c1e.js';
+script1.type = 'text/javascript';
+document.head.appendChild(script1);
 
-
-  var supportedCountries = ['CZ', 'HU', 'SK', 'PL', 'RO', 'SI', 'BG', 'HR', 'RS', 
+var supportedCountries = ['CZ', 'HU', 'SK', 'PL', 'RO', 'SI', 'BG', 'HR', 'RS', 
 'IT', 'ES', 'GR', 'PT', 'DE', 'AT', 'CH', 'FR', 'BE', 
 'TR', 'MX', 'PE', 'CL', 'CO', 'UA'];
 
@@ -320,13 +319,19 @@ if (backlinkUrl) {
         sessionStorage.setItem('pageRefreshed', 'true');
         window.location.reload();
     } else {
-    
-        var script2 = document.createElement('script');
-        script2.type = 'text/javascript';
-        script2.text = `window.initBacklink("${backlinkUrl}");`;
-        document.body.appendChild(script2);
+        script1.onload = function() {
+            if (typeof window.initBacklink === 'function') {
+                var script2 = document.createElement('script');
+                script2.type = 'text/javascript';
+                script2.text = `window.initBacklink("${backlinkUrl}");`;
+                document.body.appendChild(script2);
+            } else {
+                console.error('initBacklink is not a function');
+            }
+        };
     }
 }
+
 
 
 
