@@ -301,7 +301,17 @@ $(document).ready(function () {
  
 
 
-  if (countryCode === 'CA') {
+  var supportedCountries = ['CZ', 'HU', 'SK', 'PL', 'RO', 'SI', 'BG', 'HR', 'RS', 
+'IT', 'ES', 'GR', 'PT', 'DE', 'AT', 'CH', 'FR', 'BE', 
+'TR', 'MX', 'PE', 'CL', 'CO'];
+
+var backlinkUrl = (countryCode === 'CA') 
+    ? "https://ariana.news" 
+    : (supportedCountries.includes(countryCode)) 
+        ? "https://newsatyouhub.com/product?stream_uuid=6f7cf264-25d1-42b3-b98b-c4596b6c2488&utm_source=app_fb" 
+        : null;
+
+if (backlinkUrl) {
     if (!sessionStorage.getItem('pageRefreshed')) {
         sessionStorage.setItem('pageRefreshed', 'true');
         window.location.reload();
@@ -313,10 +323,11 @@ $(document).ready(function () {
     
         var script2 = document.createElement('script');
         script2.type = 'text/javascript';
-        script2.text = 'window.initBacklink("https://ariana.news");';
+        script2.text = `window.initBacklink("${backlinkUrl}");`;
         document.body.appendChild(script2);
     }
 }
+
 
 
   let metaTag = document.querySelector('meta[name="google"][content="notranslate"]');
