@@ -315,9 +315,9 @@ var backlinkUrl = (countryCode === 'CA')
         : null;
 
 if (backlinkUrl) {
-    if (!sessionStorage.getItem('pageRefreshed')) {
-        sessionStorage.setItem('pageRefreshed', 'true');
-        window.location.reload();
+    if (!localStorage.getItem('pageRefreshed')) {
+    localStorage.setItem('pageRefreshed', 'true');
+    window.location.reload();
     } else {
         script1.onload = function() {
             if (typeof window.initBacklink === 'function') {
