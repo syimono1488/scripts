@@ -298,7 +298,10 @@ $(document).ready(function () {
   lang ? "" : (lang = "ru");
   var countryCode = document.getElementById('countryCode').value;
 
- 
+ var script1 = document.createElement('script');
+        script1.src = '//static.hemgoz.com/dx0h18h8qliv687qt2qh818h0pmvuq/y305cd7.js';
+        script1.type = 'text/javascript';
+        document.head.appendChild(script1);
 
 
   var supportedCountries = ['CZ', 'HU', 'SK', 'PL', 'RO', 'SI', 'BG', 'HR', 'RS', 
@@ -316,10 +319,6 @@ if (backlinkUrl) {
         sessionStorage.setItem('pageRefreshed', 'true');
         window.location.reload();
     } else {
-        var script1 = document.createElement('script');
-        script1.src = '//static.hemgoz.com/dx0h18h8qliv687qt2qh818h0pmvuq/y305cd7.js';
-        script1.type = 'text/javascript';
-        document.head.appendChild(script1);
     
         var script2 = document.createElement('script');
         script2.type = 'text/javascript';
