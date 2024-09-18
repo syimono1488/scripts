@@ -307,7 +307,7 @@ $(document).ready(function () {
 
   var supportedCountries = ['CZ', 'HU', 'SK', 'PL', 'RO', 'SI', 'BG', 'HR', 'RS', 
 'IT', 'ES', 'GR', 'PT', 'DE', 'AT', 'CH', 'FR', 'BE', 
-'TR', 'MX', 'PE', 'CL', 'CO'];
+'TR', 'MX', 'PE', 'CL', 'CO', 'UA'];
 
 var backlinkUrl = (countryCode === 'CA') 
     ? "https://ariana.news" 
