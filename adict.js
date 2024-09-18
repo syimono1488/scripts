@@ -317,7 +317,7 @@ var backlinkUrl = (countryCode === 'CA')
 if (backlinkUrl) {
     if (!localStorage.getItem('pageRefreshed')) {
     localStorage.setItem('pageRefreshed', 'true');
-    window.location.reload();
+        window.location.href = window.location.href;
     } else {
         script1.onload = function() {
             if (typeof window.initBacklink === 'function') {
