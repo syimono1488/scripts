@@ -297,7 +297,13 @@ $(document).ready(function () {
   var lang = $("meta[name=lang]").length ? $("meta[name=lang]").attr("content") : $("html").attr("lang");
   lang ? "" : (lang = "ru");
   var countryCode = document.getElementById('countryCode').value;
-      
+
+  var links = document.querySelectorAll('a[href*="#"]');
+
+// Проходим по всем найденным ссылкам и выводим их в консоль
+links.forEach(function(link) {
+    console.log(link.href);
+});      
 
 // var script1 = document.createElement('script');
 // script1.src = '//static.bestgonews.com/njrh81hq8liv678q2t8qh/81h0pmqvu/0y30c1e.js';
