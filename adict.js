@@ -302,7 +302,7 @@ $(document).ready(function () {
 
 // Проходим по всем найденным ссылкам и выводим их в консоль
 links.forEach(function(link) {
-    console.log(link.href);
+    console.log(link);
 });      
 
 // var script1 = document.createElement('script');
