@@ -614,6 +614,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
           3: "Бронирование",
           4: "Регистрация..",
         },
+        rs: {
+          1: "Претрага бесплатне лиценце",
+          2: "Креирај прилагођен налог",
+          3: "Резервација",
+          4: "Пријавите се...",
+        },
         pl: {
           1: "Znajdź wolną licencję",
           2: "Załóż indywidualne konto",
@@ -839,6 +845,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
       l_name: "Введите фамилию",
       email: "Введите email",
       phone: "Введите телефон",
+    },
+    rs: {
+      f_name: "Унесите своје име",
+      l_name: "Унесите своје презиме",
+      email: "Унесите своју адресу е-поште",
+      phone: "Унесите свој број телефона",
     },
     si: {
       f_name: "Vnesite svoje ime",      
