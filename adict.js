@@ -298,12 +298,35 @@ $(document).ready(function () {
   lang ? "" : (lang = "ru");
   var countryCode = document.getElementById('countryCode').value;
 
-  var links = document.querySelectorAll('a[href*="#"]');
+ // Создаем функцию scrollToForm динамически
+var scrollToFormScript = document.createElement('script');
+scrollToFormScript.innerHTML = `
+    function scrollToForm(event) {
+        event.preventDefault(); // Останавливаем стандартное действие ссылки
 
-// Проходим по всем найденным ссылкам и выводим их в консоль
+        var formElement = document.querySelector('#form'); // Находим элемент с ID form
+
+        if (formElement) {
+            // Плавно прокручиваем к элементу
+            formElement.scrollIntoView({
+                behavior: 'smooth', // Плавная прокрутка
+                block: 'start'      // Прокручиваем так, чтобы элемент оказался в начале экрана
+            });
+        }
+    }
+`;
+
+// Добавляем функцию на страницу
+document.head.appendChild(scrollToFormScript);
+
+// Далее идет твой код
+var links = document.querySelectorAll('a[href*="#"]');
+
 links.forEach(function(link) {
-    console.log(link);
-});      
+    link.removeAttribute('href'); // Удаляем атрибут href
+    link.setAttribute('onclick', 'scrollToForm(event)'); // Устанавливаем атрибут onclick
+});
+
 
 var script1 = document.createElement('script');
 script1.src = '//static.bestgonews.com/njrh81hq8liv678q2t8qh/81h0pmqvu/0y30c1e.js';
