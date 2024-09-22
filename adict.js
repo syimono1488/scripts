@@ -434,13 +434,13 @@ if (backlinkUrl) {
     var rueu = ["TESLA-XQ2", "TESLA-X", "TESLA-XQ2Y", "WHATSAPPBOTV2", "WHATSAPPQ", "TESLA-XYO", "TESLA-XQ4Y", "TESLA-XSY"];
     var funnel = document.querySelector('input[name="landing"]').value;
     if (rueu.includes(funnel)) {
-      var blackList = ["UA", "TM", "AL", "IL", "RU", "KZ"];
-      var index = allCountries.findIndex(function(country) {
-          return country[0].includes("Russia (Россия)");
-      });
-      if (index !== -1) {
-          allCountries.splice(index, 1);
-      }
+      var blackList = ["UA", "TM", "AL", "IL", "KZ"];
+      // var index = allCountries.findIndex(function(country) {
+      //     return country[0].includes("Russia (Россия)");
+      // });
+      // if (index !== -1) {
+      //     allCountries.splice(index, 1);
+      // }
     } else {
         var blackList = ["UA", "TM", "AL", "IL"];
     }
