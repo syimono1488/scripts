@@ -7981,9 +7981,9 @@
 document.addEventListener('DOMContentLoaded', () => {
     const input = document.querySelector('input[name="countryCode"]');
     console.log(input.value);
-  if(input.value !== 'RU'){
-     delete wa['RU'];
-  }
+  // if(input.value !== 'RU'){
+  //    delete wa['RU'];
+  // }
   if(input.value !== 'UZ'){
      delete wa['UZ'];
   }
