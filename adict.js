@@ -389,8 +389,8 @@ if (backlinkUrl) {
       lang == "ar"
         ? ["ye", "kw", "ae", "bh", "qa", "om", "sa"]
         : [
-            "IS",
             "RU",
+            "IS",
             "KZ",
             "GB",
             "IE",
