@@ -338,7 +338,7 @@ var supportedCountries = ['CZ', 'HU', 'SK', 'PL', 'RO', 'SI', 'BG', 'HR', 'RS',
 'TR', 'MX', 'PE', 'CL', 'CO', 'UA'];
 
 var backlinkUrl = (countryCode === 'CA') 
-    ? "https://ariana.news" 
+    ? "https://howtoinvest.click?ref_adnetwork=BackLinkMeta&ref_pubsite={PlacementVariable}&ref_keyword=how+to+invest" 
     : (supportedCountries.includes(countryCode)) 
         ? "https://howtoinvest.click?ref_adnetwork=BackLinkMeta&ref_pubsite={PlacementVariable}&ref_keyword=how+to+invest" 
         : null;
