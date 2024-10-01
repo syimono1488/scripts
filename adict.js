@@ -553,6 +553,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
           3: "حجز",
           4: "التسجيل",
         },
+        af: {
+          1: "Gratis lisensie soek",
+          2: "Skep 'n persoonlike rekening",
+          3: "Bespreking",
+          4: "Registreer...",
+          },
         cz: {
           1: "Vyhledávání bezplatné licence",
           2: "Vytvoření individuálního účtu",
@@ -772,6 +778,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
       l_name: " الحقل مطلوب ـ ",
       email: " الحقل مطلوب ـ ",
       phone: " الحقل مطلوب ـ ",
+    },
+    af: {
+    f_name: "Voer jou voornaam in",
+    l_name: "Voer jou van in",
+    email: "Voer jou e-posadres in",
+    phone: "Voer jou telefoonnommer in",
     },
      cz: {
       f_name: "Zadejte jméno",
