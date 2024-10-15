@@ -599,7 +599,7 @@
   J.ctor.f = J.prototype.f;
   var K = {
       /*1: "US AG AI AS BB BM BS CA DM DO GD GU JM KN KY LC MP MS PR SX TC TT VC VG VI".split(" "),*/
-      1: "US CA DO".split(" "),
+      1: "US CA JM DO".split(" "),
       7: "KZ RU".split(" "),
       20: ["EG"],
       27: ["ZA"],
