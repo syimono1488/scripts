@@ -230,7 +230,7 @@
       ["Portugal", "pt", "351"],
       ["Puerto Rico", "pr", "1", 3, ["787", "939"]],
       ["Qatar (‫قطر‬‎)", "qa", "974"],
-      /*["Réunion (La Réunion)", "re", "262", 0],*/
+      ["Réunion (La Réunion)", "re", "262", 0],
       ["Romania (România)", "ro", "40"],
       ["Russia (Россия)", "ru", "7", 0],
       /*["Rwanda", "rw", "250"],
