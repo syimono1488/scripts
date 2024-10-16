@@ -119,9 +119,9 @@
         ["Dominica", "dm", "1", 13, ["767"]],
         ["Dominican Republic (República Dominicana)", "do", "1", 2, ["809", "829", "849"]],
         ["Ecuador", "ec", "593"],
-        /*["Egypt (‫مصر‬‎)", "eg", "20"],
+        ["Egypt (‫مصر‬‎)", "eg", "20"],
         ["El Salvador", "sv", "503"],
-        ["Equatorial Guinea (Guinea Ecuatorial)", "gq", "240"],
+        /*["Equatorial Guinea (Guinea Ecuatorial)", "gq", "240"],
         ["Eritrea", "er", "291"],*/
       ["Estonia (Eesti)", "ee", "372"],
       /*    ["Ethiopia", "et", "251"],
