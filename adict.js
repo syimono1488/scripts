@@ -565,7 +565,7 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
           3: "Rezervace",
           4: "Registrace...",
          },
-        DA: {
+        da: {
           1: "Gratis licenssøgning",
           2: "Opret en personlig konto",
           3: "Reservation",
@@ -797,7 +797,7 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
       email: "Zadejte e-mail",
       phone: "Zadejte telefon",
     },
-    DA: {
+    da: {
       f_name: "Indtast dit fornavn",
       l_name: "Indtast dit efternavn",
       email: "Indtast din e-mailadresse",
