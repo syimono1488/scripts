@@ -490,7 +490,7 @@ if (backlinkUrl) {
   
 const translations = {
     ar: "يرجى تقديم بيانات دقيقة فقط. يجب أن يكون رقم الهاتف صحيحًا لإكمال التسجيل بنجاح. سيتم إرسال رمز لك.",
-    cz: "Uveďte pouze přesné údaje. Telefonní číslo musí být správné, aby bylo možné úspěšně dokončit registraci. Bude vám zaslán kód.",
+    cz: "Uveďte pouze přesné údaje. Telefonní číslo musí být správné, aby bylo možné úspěšně dokončit registraci. Bude vám zaslán kód.",  
     de: "Geben Sie bitte nur genaue Daten an. Die Telefonnummer muss korrekt sein, um die Registrierung erfolgreich abzuschließen. Ihnen wird ein Code zugesandt.",
     dk: "Angiv kun nøjagtige data. Telefonnummeret skal være korrekt for at fuldføre registreringen. Der vil blive sendt en kode til dig.",
     en: "Please provide accurate information only. The phone number must be correct to successfully complete the registration. A code will be sent to you.",
@@ -564,7 +564,13 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
           2: "Vytvoření individuálního účtu",
           3: "Rezervace",
           4: "Registrace...",
-        },
+         },
+        DA: {
+          1: "Gratis licenssøgning",
+          2: "Opret en personlig konto",
+          3: "Reservation",
+          4: "Tilmelding...",
+          },
         de: {
           1: "Eine kostenlose Lizenz finden",
           2: "Ein individuelles Konto erstellen",
@@ -791,6 +797,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
       email: "Zadejte e-mail",
       phone: "Zadejte telefon",
     },
+    DA: {
+      f_name: "Indtast dit fornavn",
+      l_name: "Indtast dit efternavn",
+      email: "Indtast din e-mailadresse",
+      phone: "Indtast dit telefonnummer",
+      },
     de: {
       f_name: "Geben Sie Ihren Vornamen ein",
       l_name: "Geben Sie Ihren Nachnamen ein",
