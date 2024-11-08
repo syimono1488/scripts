@@ -210,9 +210,9 @@
       /* ["New Caledonia (Nouvelle-Calédonie)", "nc", "687"],*/
         ["New Zealand", "nz", "64"],
         /*["Nicaragua", "ni", "505"],
-        ["Niger (Nijar)", "ne", "227"],
+        ["Niger (Nijar)", "ne", "227"],*/
         ["Nigeria", "ng", "234"],
-        ["Niue", "nu", "683"],
+       /* ["Niue", "nu", "683"],
         ["Norfolk Island", "nf", "672"],
         ["North Korea (조선 민주주의 인민 공화국)", "kp", "850"],
         ["Northern Mariana Islands", "mp", "1", 17, ["670"]],*/
