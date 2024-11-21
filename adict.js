@@ -625,6 +625,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
           3: "Rezervācija",
           4: "Reģistrējas...",
         },
+        lo: {
+          1: "ຄົ້ນຫາໃບອະນຸຍາດຟຣີ",
+          2: "ສ້າງບັນຊີສ່ວນຕົວ",
+          3: "ການຈອງ",
+          4: "ລົງທະບຽນ...",
+        },
         in: {
           1: "निःशुल्क लाइसेंस के लिए खोजें",
           2: "एक व्यक्तिगत खाता बनाएँ",
@@ -850,6 +856,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
       l_name: "苗字を入力",
       email: "Eメールアドレスを入力します。",
       phone: "電話番号を入力",
+    },
+    lo: {
+      f_name: "ໃສ່ຊື່ຂອງທ່ານ",
+      l_name: "ໃສ່ນາມສະກຸນຂອງທ່ານ",
+      email: "ໃສ່ທີ່ຢູ່ອີເມລຂອງທ່ານ",
+      phone: "ໃສ່ເບີໂທຂອງທ່ານ",
     },
     lv: {
       f_name: "Ievadiet vārdu",
