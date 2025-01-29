@@ -135,9 +135,9 @@ $(document).ready(function () {
     /*  ["Greenland (Kalaallit Nunaat)", "gl", "299"],
         ["Grenada", "gd", "1", 14, ["473"]],
         ["Guadeloupe", "gp", "590", 0],
-        ["Guam", "gu", "1", 15, ["671"]],
+        ["Guam", "gu", "1", 15, ["671"]],*/
         ["Guatemala", "gt", "502"],
-        ["Guernsey", "gg", "44", 1, ["1481", "7781", "7839", "7911"]],
+       /* ["Guernsey", "gg", "44", 1, ["1481", "7781", "7839", "7911"]],
         ["Guinea (Guinée)", "gn", "224"],
         ["Guinea-Bissau (Guiné Bissau)", "gw", "245"],
         ["Guyana", "gy", "592"],
