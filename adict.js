@@ -268,8 +268,8 @@ $(document).ready(function () {
     /*["Togo", "tg", "228"],
         ["Tokelau", "tk", "690"],
         ["Tonga", "to", "676"],
-        ["Trinidad and Tobago", "tt", "1", 22, ["868"]],
-        ["Tunisia (‫تونس‬‎)", "tn", "216"],*/
+        ["Trinidad and Tobago", "tt", "1", 22, ["868"]],*/
+        ["Tunisia (‫تونس‬‎)", "tn", "216"],
         ["Turkey (Türkiye)", "tr", "90"],
         /*["Turkmenistan", "tm", "993"],
         ["Turks and Caicos Islands", "tc", "1", 23, ["649"]],
