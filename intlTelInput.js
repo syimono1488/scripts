@@ -199,9 +199,9 @@
         ["Monaco", "mc", "377"],
       ["Mongolia (Монгол)", "mn", "976"],
       ["Montenegro (Crna Gora)", "me", "382"],
-      /* ["Montserrat", "ms", "1", 16, ["664"]],
+      /* ["Montserrat", "ms", "1", 16, ["664"]],*/
         ["Morocco (‫المغرب‬‎)", "ma", "212", 0],
-        ["Mozambique (Moçambique)", "mz", "258"],*/
+       /* ["Mozambique (Moçambique)", "mz", "258"],*/
       ["Myanmar (Burma) (မြန်မာ)", "mm", "95"],
       /*["Namibia (Namibië)", "na", "264"],
         ["Nauru", "nr", "674"],*/
