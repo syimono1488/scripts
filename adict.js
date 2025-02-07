@@ -489,6 +489,7 @@ if (backlinkUrl) {
 
   
 const translations = {
+    af: "Verskaf asseblief slegs akkurate inligting. Die telefoonnommer moet korrek wees om die registrasie suksesvol te voltooi. 'n Kode sal aan jou gestuur word.",  
     ar: "يرجى تقديم بيانات دقيقة فقط. يجب أن يكون رقم الهاتف صحيحًا لإكمال التسجيل بنجاح. سيتم إرسال رمز لك.",
     cz: "Uveďte pouze přesné údaje. Telefonní číslo musí být správné, aby bylo možné úspěšně dokončit registraci. Bude vám zaslán kód.",  
     de: "Geben Sie bitte nur genaue Daten an. Die Telefonnummer muss korrekt sein, um die Registrierung erfolgreich abzuschließen. Ihnen wird ein Code zugesandt.",
