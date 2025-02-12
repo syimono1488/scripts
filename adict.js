@@ -506,6 +506,7 @@ const translations = {
     nl: "Geef alleen nauwkeurige informatie op. Het telefoonnummer moet correct zijn om de registratie succesvol te voltooien. Er wordt een code naar u verzonden.",
     ro: "Vă rugăm să furnizați doar informații precise. Numărul de telefon trebuie să fie corect pentru a finaliza cu succes înregistrarea. Vi se va trimite un cod.",
     ru: "Укажите только точные данные. Номер телефона должен быть корректным для успешного завершения регистрации. Вам будет отправлен код.",
+    rs: "Молимо да дате само тачне информације. Број телефона мора бити тачан да би се регистрација успешно завршила. Биће вам послат код.",
     pl: "Podaj tylko dokładne dane. Numer telefonu musi być poprawny, aby pomyślnie zakończyć rejestrację. Otrzymasz kod.",
     pt: "Forneça apenas informações precisas. O número de telefone deve estar correto para concluir o registro com sucesso. Um código será enviado para você.",
     si: "Prosimo, navedite le natančne podatke. Telefonska številka mora biti pravilna za uspešno dokončanje registracije. Poslan vam bo koda.",
