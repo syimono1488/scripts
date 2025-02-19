@@ -503,6 +503,7 @@ const translations = {
     lv: "Lūdzu, norādiet tikai precīzus datus. Lai veiksmīgi pabeigtu reģistrāciju, tālruņa numuram jābūt pareizam. Jums tiks nosūtīts kods.",
     in: "Harap hanya memberikan informasi yang akurat. Nomor telepon harus benar agar pendaftaran berhasil. Kode akan dikirimkan kepada Anda.",
     it: "Si prega di fornire solo informazioni accurate. Il numero di telefono deve essere corretto per completare con successo la registrazione. Ti verrà inviato un codice.",
+    no: "Vennligst oppgi bare nøyaktig informasjon. Telefonnummeret må være riktig for å fullføre registreringen. En kode vil bli sendt til deg.",
     nl: "Geef alleen nauwkeurige informatie op. Het telefoonnummer moet correct zijn om de registratie succesvol te voltooien. Er wordt een code naar u verzonden.",
     ro: "Vă rugăm să furnizați doar informații precise. Numărul de telefon trebuie să fie corect pentru a finaliza cu succes înregistrarea. Vi se va trimite un cod.",
     ru: "Укажите только точные данные. Номер телефона должен быть корректным для успешного завершения регистрации. Вам будет отправлен код.",
@@ -645,6 +646,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
           3: "Prenotazione",
           4: "Registrazione",
         },
+        no: {
+          1: "Gratis lisenssøk",
+          2: "Opprett en personlig konto",
+          3: "Reservasjon",
+          4: "Registrer deg...",
+       },
         nl: {
           1: "Op zoek naar een gratis licentie",
           2: "Een individuele account aanmaken",
@@ -882,6 +889,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
       l_name: "Inserire cognome",
       email: "Inserire email",
       phone: "Inserire numero di telefono",
+    },
+    no: {
+      f_name: "Skriv inn fornavnet ditt",
+      l_name: "Skriv inn etternavnet ditt",
+      email: "Skriv inn e-postadressen din",
+      phone: "Skriv inn telefonnummeret ditt",
     },
     nl: {
       f_name: "Voer een voornaam in",
