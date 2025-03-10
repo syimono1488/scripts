@@ -501,6 +501,7 @@ const translations = {
     kr: "정확한 정보만 제공하십시오. 전화번호가 올바르면 등록이 성공적으로 완료됩니다. 코드가 전송됩니다.",
     ja: "正確な情報のみを提供してください。登録を正常に完了するには、電話番号が正しい必要があります。コードが送信されます。",
     lv: "Lūdzu, norādiet tikai precīzus datus. Lai veiksmīgi pabeigtu reģistrāciju, tālruņa numuram jābūt pareizam. Jums tiks nosūtīts kods.",
+    jp:"正確な情報のみをご提供ください。登録を成功させるには、電話番号が正確である必要があります。コードが送信されます。",
     in: "Harap hanya memberikan informasi yang akurat. Nomor telepon harus benar agar pendaftaran berhasil. Kode akan dikirimkan kepada Anda.",
     it: "Si prega di fornire solo informazioni accurate. Il numero di telefono deve essere corretto per completare con successo la registrazione. Ti verrà inviato un codice.",
     no: "Vennligst oppgi bare nøyaktig informasjon. Telefonnummeret må være riktig for å fullføre registreringen. En kode vil bli sendt til deg.",
