@@ -218,8 +218,8 @@
         ["Northern Mariana Islands", "mp", "1", 17, ["670"]],*/
       ["Norway (Norge)", "no", "47", 0],
       ["Oman (‫عُمان‬‎)", "om", "968"],
-      /* ["Pakistan (‫پاکستان‬‎)", "pk", "92"],
-        ["Palau", "pw", "680"],
+       ["Pakistan (‫پاکستان‬‎)", "pk", "92"],
+       /* ["Palau", "pw", "680"],
         ["Palestine (‫فلسطين‬‎)", "ps", "970"],
         ["Panama (Panamá)", "pa", "507"],
         ["Papua New Guinea", "pg", "675"],
