@@ -487,6 +487,7 @@ const translations = {
     fi: "Anna vain tarkat tiedot. Puhelinnumeron on oltava oikein rekisteröinnin onnistumiseksi. Saat koodin.",
     fr: "Veuillez fournir uniquement des informations précises. Le numéro de téléphone doit être correct pour compléter l'inscription avec succès. Un code vous sera envoyé.",
     gr: "Παρακαλώ παρέχετε μόνο ακριβείς πληροφορίες. Ο αριθμός τηλεφώνου πρέπει να είναι σωστός για να ολοκληρωθεί η εγγραφή με επιτυχία. Θα σας αποσταλεί ένας κωδικός.",
+    vi: "Vui lòng chỉ cung cấp thông tin chính xác. Số điện thoại phải chính xác để hoàn tất quá trình đăng ký thành công. Một mã sẽ được gửi cho bạn.",
     zh: "请仅提供准确的信息。电话号码必须正确才能成功完成注册。系统将向您发送验证码。"
 };
 
@@ -699,6 +700,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
           2: "Δημιουργήστε έναν εξατομικευμένο λογαριασμό",          
           3: "Κράτηση",          
           4: "Εγγραφείτε...",
+        },
+        vi: {
+          1: "Tìm kiếm giấy phép miễn phí",
+          2: "Tạo tài khoản cá nhân",
+          3: "Đặt chỗ",
+          4: "Đăng ký...",
         },
         zh: {
           1: "搜索免费许可证",
@@ -943,6 +950,12 @@ document.querySelectorAll('form[action="thanks/index.php"]').forEach(function(fo
       l_name: "Εισάγετε το επώνυμό σας",      
       email: "Εισάγετε τη διεύθυνση email σας",      
       phone: "Εισάγετε τον αριθμό τηλεφώνου σας",
+    },
+    vi: {
+      f_name: "Nhập tên của bạn",
+      l_name: "Nhập họ của bạn",
+      email: "Nhập địa chỉ email của bạn",
+      phone: "Nhập số điện thoại của bạn",
     },
     zh: {
       f_name: "插入名称",
