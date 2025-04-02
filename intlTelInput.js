@@ -209,8 +209,8 @@
       ["Netherlands (Nederland)", "nl", "31"],
       /* ["New Caledonia (Nouvelle-Calédonie)", "nc", "687"],*/
         ["New Zealand", "nz", "64"],
-        /*["Nicaragua", "ni", "505"],
-        ["Niger (Nijar)", "ne", "227"],*/
+        ["Nicaragua", "ni", "505"],
+        ["Niger (Nijar)", "ne", "227"],
         ["Nigeria", "ng", "234"],
        /* ["Niue", "nu", "683"],
         ["Norfolk Island", "nf", "672"],
