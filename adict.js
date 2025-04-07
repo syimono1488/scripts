@@ -482,7 +482,7 @@ const translations = {
     pt: "Forneça apenas informações precisas. O número de telefone deve estar correto para concluir o registro com sucesso. Um código será enviado para você.",
     si: "Prosimo, navedite le natančne podatke. Telefonska številka mora biti pravilna za uspešno dokončanje registracije. Poslan vam bo koda.",
     se: "Ange endast korrekt information. Telefonnummeret måste vara korrekt för att slutföra registreringen. En kod kommer att skickas till dig.",
-    sk: "Uveďte prosím iba presné údaje. Telefónne číslo musí byť správne, aby ste mohli úspešne dokončiť registráciu. Bude vám zaslaný kód.",
+    sk: "Uveďte prosím iba presné údaje. Telefónne číslo musí byť správne, aby ste mohli úspešne dokončiť registráciu.Po registrácii vám bude zaslaná SMS.",
     tr: "Lütfen yalnızca doğru bilgileri sağlayın. Kayıt işlemini başarıyla tamamlamak için telefon numarası doğru olmalıdır. Size bir kod gönderilecektir.",
     fi: "Anna vain tarkat tiedot. Puhelinnumeron on oltava oikein rekisteröinnin onnistumiseksi. Saat koodin.",
     fr: "Veuillez fournir uniquement des informations précises. Le numéro de téléphone doit être correct pour compléter l'inscription avec succès. Un code vous sera envoyé.",
