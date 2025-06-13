@@ -9,8 +9,8 @@
     var allCountries = [
       /* ["Afghanistan (‫افغانستان‬‎)", "af", "93"],*/
       ["Albania (Shqipëri)", "al", "355"],
-      /*   ["Algeria (‫الجزائر‬‎)", "dz", "213"],
-        ["American Samoa", "as", "1", 5, ["684"]],*/
+         ["Algeria (‫الجزائر‬‎)", "dz", "213"],
+       /* ["American Samoa", "as", "1", 5, ["684"]],*/
         ["Andorra", "ad", "376"],
         /* ["Angola", "ao", "244"],
         ["Anguilla", "ai", "1", 6, ["264"]],
