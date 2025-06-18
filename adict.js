@@ -14,15 +14,15 @@ $(document).ready(function () {
     ["Australia", "au", "61", 0],
     ["Austria (Österreich)", "at", "43"],
     ["Azerbaijan (Azərbaycan)", "az", "994"],
-    /*  ["Bahamas", "bs", "1", 8, ["242"]],*/
+   ["Bahamas", "bs", "1", 8, ["242"]],
     ["Bahrain (‫البحرين‬‎)", "bh", "973"],
     ["Bangladesh (বাংলাদেশ)", "bd", "880"],
     /*["Barbados", "bb", "1", 9, ["246"]],*/
     ["Belarus (Беларусь)", "by", "375"],
     ["Belgium (België)", "be", "32"],
     /* ["Belize", "bz", "501"],
-        ["Benin (Bénin)", "bj", "229"],
-        ["Bermuda", "bm", "1", 10, ["441"]],*/
+        ["Benin (Bénin)", "bj", "229"],*/
+        ["Bermuda", "bm", "1", 10, ["441"]],
     ["Bhutan (འབྲུག)", "bt", "975"],
     ["Bolivia", "bo", "591"],
     ["Bosnia and Herzegovina (Босна и Херцеговина)", "ba", "387"],
@@ -87,9 +87,9 @@ $(document).ready(function () {
       ],
     ],
     /*["Cape Verde (Kabu Verdi)", "cv", "238"],
-        ["Caribbean Netherlands", "bq", "599", 1, ["3", "4", "7"]],
+        ["Caribbean Netherlands", "bq", "599", 1, ["3", "4", "7"]],*/
         ["Cayman Islands", "ky", "1", 12, ["345"]],
-        ["Central African Republic (République centrafricaine)", "cf", "236"],
+        /*["Central African Republic (République centrafricaine)", "cf", "236"],
         ["Chad (Tchad)", "td", "235"],*/
     ["Chile", "cl", "56"],
     ["China (中国)", "cn", "86"],
