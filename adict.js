@@ -142,8 +142,8 @@ $(document).ready(function () {
         ["Guinea-Bissau (Guiné Bissau)", "gw", "245"],
         ["Guyana", "gy", "592"],
         ["Haiti", "ht", "509"],
-        ["Honduras", "hn", "504"],
-        ["Hong Kong (香港)", "hk", "852"],*/
+        ["Honduras", "hn", "504"],*/
+        ["Hong Kong (香港)", "hk", "852"],
     ["Hungary (Magyarország)", "hu", "36"],
     ["Iceland (Ísland)", "is", "354"],
     ["India (भारत)", "in", "91"],
