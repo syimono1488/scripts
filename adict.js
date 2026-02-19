@@ -113,7 +113,7 @@ $(document).ready(function () {
         initialCountry: "auto",
         separateDialCode: true,
         excludeCountries: blackList,
-        validationNumberType: "FIXED_LINE_OR_MOBILE",
+        //validationNumberType: "FIXED_LINE_OR_MOBILE",
         countrySearch: true,
         geoIpLookup: function (success, failure) {
           countryCode.toLowerCase() == "ua" ? (countryCode = acceptCountry[0]) : "";
