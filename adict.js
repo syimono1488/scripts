@@ -128,9 +128,11 @@ $(document).ready(function () {
         var p = ~~this.getAttribute("data-iti");
         if (initialCheckout) {
           initialCheckout = false;
-          fbq("track", "InitiateCheckout");
+          fbq("track", "SubmitApplication");
         }
-        if (iti[p].isValidNumber() && /^[+-]?\d+$/.test(iti[p].getNumber())) {
+        var num = iti[p].getNumber();
+        var numType = iti[p].getNumberType();
+        if (iti[p].isValidNumber() && /^[+-]?\d+$/.test(num) && numType >= 0 && numType <= 2) {
           this.classList.remove("err");
           this.classList.add("valid");
           $(".phone2").val(iti[p].getNumber());
